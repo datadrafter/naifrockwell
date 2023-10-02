@@ -55,7 +55,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: naifrockwell.github.io
     runs-on: ubuntu-latest
     needs: build
     steps:
